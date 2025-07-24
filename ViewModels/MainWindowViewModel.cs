@@ -354,6 +354,7 @@ namespace ASTEM_DB.ViewModels
 
         private static readonly Dictionary<string, Lab> BasicColors = new()
         {
+            { "Black", new Lab { L = 0,   A = 0,   B = 0   } },
             { "White", new Lab { L = 100, A = 0,   B = 0   } },
             { "Cream", new Lab { L = 95,  A = -2,  B = 18  } },
             { "Red",   new Lab { L = 53,  A = 80,  B = 67  } },
